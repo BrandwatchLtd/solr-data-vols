@@ -1,0 +1,14 @@
+{
+  "facebook_posts":{
+    "type": "range",
+    "field": "resource_last_modified",
+    "start": "2015-01-01T00:00:00Z",
+    "end": "2017-01-01T00:00:00Z",
+    "facet":{
+        "page_type":{
+            "type": "terms",
+            "field": "resource_resource_type",
+        }
+      }
+    }
+}
